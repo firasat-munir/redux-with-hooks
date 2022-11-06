@@ -15,7 +15,7 @@ export const decrement=()=>{
     }
 }
 
-export const incrementByAmount=()=>{
+export const incrementByAmount=(number)=>{
     return{
         type: INCREMENT_BY_AMOUNT,
         payload: number
